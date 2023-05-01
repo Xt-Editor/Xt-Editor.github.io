@@ -1,0 +1,53 @@
+baseURL = "https://xt-editor.github.io"
+title = "Xt Editor blog"
+description = ""
+author = "The Xt Editor Developers"
+copyright = "Copyright © 2022, The Xt Editor Developers; CC BY-SA 2.0"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+googleAnalytics = ""
+disqusShortname = ""
+theme = "simplog"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archives"
+    url = "/archives/"
+    weight = 40
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  archive = "archives"
+
+[params]
+  subtitle = "the development blog for the Xt Editor project"
+  colorTheme = "default"
+
+  [params.enabled]
+    comment = false
+    summary = true
+    toc = true
